@@ -1,0 +1,80 @@
+.ordered-persons-page {
+    padding: 30px;
+    margin: 40px ;
+    border-radius: 30px;
+    background: #f8fafc; /* very light background for contrast */
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .ordered-persons-page h2 {
+    margin-bottom: 25px;
+    color: #0f172a; /* navy blue */
+  }
+  
+  .ordered-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .ordered-card {
+    background-color: #fff; 
+    padding: 20px;
+    border-left: 5px solid #1e3a8a;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .ordered-card:hover{
+    background-color: #c9dcf3;
+  }
+  
+  .ordered-card h3 {
+    margin-top: 0;
+    color: #1e40af; /* strong navy title */
+  }
+  
+  .ordered-card p {
+    margin: 5px 0;
+    color: #1e293b; /* dark gray-blue text */
+  }
+  
+  .fish-details {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #cbd5e1; /* light navy-gray border */
+  }
+  
+  /*footer*/
+
+.footer-links {
+  margin-top: 2rem;
+  background-color: #0C1A36;
+  padding: 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.column h4 {
+  margin-bottom: 0.5rem;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 0.25rem;
+}
+
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
