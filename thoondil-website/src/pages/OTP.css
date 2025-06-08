@@ -1,0 +1,109 @@
+/* OTP.css */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #a6b2ee, #e6ffff);
+  padding: 20px;
+}
+
+.otp-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.15);
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+}
+
+.otp-title {
+  font-size: 24px;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.otp-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.otp-phone {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.otp-input {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
+  transition: border 0.3s ease;
+}
+
+.otp-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.otp-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #0e2cb2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.otp-button:hover {
+  background-color: #170f5f;
+}
+
+.otp-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.otp-link {
+  background: none;
+  border: none;
+  color: #0a5cb4f6;
+  font-size: 14px;
+  cursor: pointer;
+  transition: text-decoration 0.3s ease;
+}
+
+.otp-link:hover {
+  background-color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .otp-card {
+    padding: 30px 20px;
+  }
+
+  .otp-title {
+    font-size: 20px;
+  }
+
+  .otp-input {
+    font-size: 20px;
+    letter-spacing: 8px;
+  }
+}

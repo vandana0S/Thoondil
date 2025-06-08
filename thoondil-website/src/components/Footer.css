@@ -1,0 +1,28 @@
+:root {
+  --footer-bg: #0c1a36;
+  --footer-text: #ffffff;
+}
+
+/* Footer styling */
+.thoondil-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.thoondil-footer p {
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

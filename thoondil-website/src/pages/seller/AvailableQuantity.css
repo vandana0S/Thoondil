@@ -1,0 +1,71 @@
+.available-quantity-page {
+    padding: 30px;
+    margin: 40px;
+    border-radius: 30px;
+    background: #fff;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .available-quantity-page h2 {
+    margin-bottom: 20px;
+    color: #0f172a;
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .stock-table th,
+  .stock-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .stock-table th {
+    background-color: #e0f2fe;
+    color: #0369a1;
+  }
+  
+  .stock-table tr:hover {
+    background-color: #f1f5f9;
+  }
+  
+
+  /*footer*/
+.footer-links {
+  margin-top: 2rem;
+  background-color: #0C1A36;
+  padding: 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.column h4 {
+  margin-bottom: 0.5rem;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 0.25rem;
+}
+
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+}

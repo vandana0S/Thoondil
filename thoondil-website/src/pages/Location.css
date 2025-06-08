@@ -1,0 +1,70 @@
+/* Location.css */
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #a6b2ee, #e6ffff);
+  padding: 20px;
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 150, 136, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.location-title {
+  font-size: 24px;
+  color: #040079;
+  margin-bottom: 20px;
+}
+
+.location-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  transition: border 0.3s ease;
+}
+
+.location-input:focus {
+  border-color: #090d70;
+  box-shadow: 0 0 7px #a5a8f4;
+  outline: none;
+}
+
+.location-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #0e2cb2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.location-button:hover {
+  background-color: #170f5f;
+}
+
+@media (max-width: 500px) {
+  .location-card {
+    padding: 30px 20px;
+  }
+
+  .location-title {
+    font-size: 20px;
+  }
+}
