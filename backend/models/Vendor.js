@@ -153,7 +153,6 @@ const vendorSchema = new mongoose.Schema(
 // Create geospatial index for location-based queries
 vendorSchema.index({ location: "2dsphere" });
 vendorSchema.index({ isVerified: 1, isOpen: 1 });
-vendorSchema.index({ ownerId: 1 });
 vendorSchema.index({ pincodesServed: 1 });
 
 // Virtual for public profile

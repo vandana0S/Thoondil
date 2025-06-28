@@ -11,6 +11,8 @@ const userRoutes = require("./routes/users");
 const vendorRoutes = require("./routes/vendorRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const publicRoutes = require("./routes/publicRoutes");
+const cartRoutes = require("./routes/cartRoutes");
+const orderRoutes = require("./routes/orderRoutes");
 const { errorHandler } = require("./middlewares/errorHandler");
 
 const app = express();
@@ -60,7 +62,9 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/vendor", vendorRoutes);
 app.use("/api/v1/admin", adminRoutes);
-app.use("/api/v1", publicRoutes); // Public routes for products and vendors
+app.use("/api/v1/cart", cartRoutes);
+app.use("/api/v1/orders", orderRoutes);
+app.use("/api/v1", publicRoutes);
 
 // 404 handler
 app.use("*", (req, res) => {
