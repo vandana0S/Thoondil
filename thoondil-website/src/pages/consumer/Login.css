@@ -1,0 +1,134 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #a6b2ee, #e6ffff);  padding: 20px;
+  overflow: hidden;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #a6b2ee, #e6ffff);
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #0279f9;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0554a8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #224366;
+}
+
+.google-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+  color: #444;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.google-button:hover {
+  box-shadow: 0 0 10px rgba(66, 133, 244, 0.5);
+}
+
+.login-divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+}
+
+.login-divider::before,
+.login-divider::after {
+  content: '';
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  width: 40%;
+}
+
+.login-divider::before {
+  left: 0;
+}
+
+.login-divider::after {
+  right: 0;
+}
+
+@media (max-width: 500px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+
+  .login-input {
+    font-size: 14px;
+  }
+}
